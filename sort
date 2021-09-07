@@ -1,0 +1,21 @@
+
+
+mylist = [4,6,3,8,9,1,2,5]
+print ("Enter 1 for ascending")
+print ("Enter 2 for descending")
+choice = int(input())
+
+ 
+
+if ( choice == 1 ):
+    print ("Ascending order of list is:")
+    mylist.sort()
+    print(mylist)
+elif( choice == 2 ):
+    print ("Descending order of list is:")
+    mylist.sort(reverse = True)
+    print(mylist)
+else:
+    print("Invalid!")
+
+
